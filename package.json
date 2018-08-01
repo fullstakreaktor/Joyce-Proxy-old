@@ -1,0 +1,26 @@
+{
+  "name": "FECdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.9.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-connect-proxy": "^0.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-s3-sync": "^0.4.3"
+  }
+}
