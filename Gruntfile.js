@@ -29,12 +29,28 @@ module.exports= function (grunt){
                     '^/hero_service':'/api'
                 }
             },
-            {
+              {
                 context: '/about',
                 host: 'localhost',
                 port: 3001,
                 rewrite: {
                     '^/about':'/api'
+                }
+              },
+              {
+                context: '/reservations',
+                host: 'localhost',
+                port: 3003,
+                rewrite: {
+                    '^/reservations':'/api'
+                }
+              },
+              {
+                context: '/reviews',
+                host: 'localhost',
+                port: 3002,
+                rewrite: {
+                    '^/reviews':'/api'
                 }
               },
             ]
